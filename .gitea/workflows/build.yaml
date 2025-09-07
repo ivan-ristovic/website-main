@@ -1,0 +1,31 @@
+name: Build Jekyll site
+on:
+ push:
+   branches: ["main"]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:
+  jekyll:
+    name: Build and deploy Jekyll site
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build
+      uses: ${{ vars.ACTIONS_REPO }}
+
+    - name: Deploy
+      uses: burnett01/rsync-deployments@7.1.0
+      with:
+        switches: -avzr --delete
+        path: _site
+        remote_path: ${{ vars.PAGES_PATH_PREFIX }}main
+        remote_host: ${{ vars.SSH_HOST }}
+        remote_user: ${{ vars.SSH_USER }}
+        remote_key: ${{ secrets.SSH_KEY }}
+        remote_key_pass: ${{ secrets.SSH_KEY_PASS }}
+        
