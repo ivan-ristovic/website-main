@@ -23,6 +23,8 @@ jobs:
       with:
         ruby-version: '3.2.1'
         bundler-cache: true
+      env:
+        RUNNER_TOOL_CACHE: /toolcache
 
     - name: Install and Build
       run: |
