@@ -11,7 +11,7 @@ jobs:
     - name: repo-sync
       uses: repo-sync/github-sync@v2
       with:
-        source_repo: "git@git.ristovic.net:ivan/website-main.git"
+        source_repo: "git@github.com:ivan-ristovic/ivan-ristovic.github.io.git"
         source_branch: "*"
         destination_branch: "*"
         sync_tags: "*"
