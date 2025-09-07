@@ -17,4 +17,4 @@ jobs:
         sync_tags: "*"
         github_token: ${{ secrets.GH_REPO_SYNC_PAT }}
         env:
-            - SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+            SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
