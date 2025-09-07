@@ -15,8 +15,19 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Build
-      uses: ${{ vars.ACTIONS_REPO }}
+    #- name: Build
+    #  uses: ${{ vars.ACTIONS_REPO }}
+
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2.1'
+        bundler-cache: true
+
+    - name: Install and Build
+      run: |
+        npm install -g mermaid.cli
+        bundle exec jekyll build
 
     - name: Deploy
       uses: burnett01/rsync-deployments@7.1.0
