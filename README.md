@@ -1,3 +1,3 @@
-# ivan-ristovic.github.io
+# My personam webpage
 
-My personal webpage based on the [al-folio](https://github.com/alshedivat/al-folio) template.
+Based on the [al-folio](https://github.com/alshedivat/al-folio) template.
