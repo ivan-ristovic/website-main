@@ -2,6 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+# Allows symlinks (important for CV submodule)
+safe: false
+
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ivan
 middle_name: 
