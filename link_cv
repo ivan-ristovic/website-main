@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cp ./cv/shared/picture.jpg ./assets/img/prof_pic.jpg
+cp ./cv/shared/publications.bib ./_bibliography/papers.bib
 cp ./cv/bio/1st_short_en.md ./_includes/cv/about.md
