@@ -32,6 +32,8 @@ jobs:
     - name: Install and Build
       run: |
         npm install -g mermaid.cli
+        stat assets/img/prof_pic.jpg
+        ls -la cv/
         bundle exec jekyll build
 
     - name: Deploy

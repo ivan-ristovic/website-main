@@ -205,7 +205,6 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-symlinks: true # important for CV submodule
 
 # Includes & excludes
 include: ['_pages']
