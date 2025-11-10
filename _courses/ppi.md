@@ -8,5 +8,5 @@ redirect: https://matf.ristovic.net/courses/pp/
 github: https://github.com/matf-pp
 github_stars: false
 importance: 3
-category: Previous
+category: Bachelor
 ---

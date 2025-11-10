@@ -8,6 +8,8 @@ nav_order: 6
 display_categories: [Bachelor, Masters, Previous]
 ---
 
+I teach various courses as a member of the [Department of Computer Science](http://www.racunarstvo.matf.bg.ac.rs/) at the [Faculty of Mathematics](http://www.matf.bg.ac.rs/eng/) in Belgrade.
+
 Detailed information about my courses and course notifications can be found 
 @ [my faculty website](https://matf.ristovic.net).
 
