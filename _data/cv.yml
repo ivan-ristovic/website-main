@@ -26,34 +26,49 @@
         - General GraalVM Native Image development
         - GraalOS
 
-    - title: Researcher
-      institution: Oracle Labs, Belgrade
-      year: 2021 - 2023
-      description:
-        - Java Platform Module System compatibility of GraalVM Native Image
-        - Startup improvements of Espresso, a metacircular JVM implemented using Truffle
-
     - title: Teaching Assistant
       institution: University of Belgrade, Faculty of Mathematics
       year: 2020 - present
       description:
         - Programming Paradigms, Computer Networks, Functional Programming, Software Development II, Software Verification
 
-    - title: Teaching Assistant trainee
+    - title: Researcher
+      institution: Oracle Labs, Belgrade
+      year: 2021 - 2023
+      description:
+        - Java Platform Module System compatibility of GraalVM Native Image
+        - Startup improvements of Espresso, a metacircular JVM on top of Truffle
+
+    - title: Teaching Assistant Trainee
       institution: University of Belgrade, Faculty of Mathematics
       year: 2018 - 2020
       description:
         - OOP, Programming Paradigms, Computer Networks
 
-- title: Open Source Projects (see Projects and Repositories)
+- title: Selected <a href='/projects'>Open Source Projects</a>
   type: time_table
   contents:
-    - title: <a href="https://github.com/ivan-ristovic/the-godfather">the-godfather</a>
-      year: 2015 - present
-      description: A feature-rich general-purpose Discord bot
-    - title: <a href="https://github.com/LINVAST">LINVAST</a>
+    - title: <a href="/projects/dotfiles">dotfiles</a>
+      year: 2021 - present
+      description: System configuration management automation, with a configuration patching system
+    - title: <a href="/projects/cloud">ExtCloud</a>
+      year: 2020 - present
+      description: Scalable and easy-to-deploy self-hosting cloud service architecture that powers my digital life
+    - title: <a href="/projects/linvast">LINVAST</a>
       year: 2019 - present
-      description: A language-invariant AST abstraction with tools to create, use and visualize ASTs
+      description: Language-invariant AST abstraction with tools to create, use and visualize ASTs
+    - title: <a href="/projects/the-godfather">the-godfather</a>
+      year: 2018 - present
+      description: A feature-rich general-purpose Discord bot
+    - title: <a href="/projects/maze-pathfinder">maze-pathfinder</a>
+      year: 2017
+      description: Maze solver that scans a maze image and draws a path through the maze
+    - title: <a href="/projects/Spectrum">Spectrum</a>
+      year: 2017
+      description: 2D platformer/puzzle game team project. Use a variety of colors to hide objects on the level and find your way through
+    - title: <a href="/projects/rubik">rubik</a>
+      year: 2017
+      description: Interactive 3D Rubik's cube
 
 - title: Honors and Awards
   type: time_table
@@ -81,14 +96,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Programming languages
+    - title: Compilers and programming languages 
       items: 
-        - Programming language design and implementation
-        - Functional programming
+        - Compiler and programming language design and implementation
+        - Programming paradigms, especially functional programming
     - title: Software development, scaling and verification
       items:
         - Enterprise software development ecosystems (.NET, Java)
-        - Microservice architecture
+        - Microservices architecture
         - Serverless architecture
 
 - title: Other Interests
