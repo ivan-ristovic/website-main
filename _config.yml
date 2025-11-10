@@ -2,9 +2,6 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-# Allows symlinks (important for CV submodule)
-safe: false
-
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Ivan
 middle_name: 
@@ -208,6 +205,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+symlinks: true # important for CV submodule
 
 # Includes & excludes
 include: ['_pages']
