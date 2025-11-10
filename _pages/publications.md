@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: A list of my publications, including scientific journal papers, conference papers and proceedings, and patents.
 years: []
 nav: true
