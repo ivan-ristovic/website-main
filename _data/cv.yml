@@ -48,12 +48,12 @@
 - title: Selected <a href='/projects'>Open Source Projects</a>
   type: time_table
   contents:
+    - title: <a href="/projects/cloud">ExtCloud</a>
+      year: 2023 - present
+      description: Scalable and easy-to-deploy self-hosting cloud service architecture that powers my digital life
     - title: <a href="/projects/dotfiles">dotfiles</a>
       year: 2021 - present
       description: System configuration management automation, with a configuration patching system
-    - title: <a href="/projects/cloud">ExtCloud</a>
-      year: 2020 - present
-      description: Scalable and easy-to-deploy self-hosting cloud service architecture that powers my digital life
     - title: <a href="/projects/linvast">LINVAST</a>
       year: 2019 - present
       description: Language-invariant AST abstraction with tools to create, use and visualize ASTs
