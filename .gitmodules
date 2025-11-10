@@ -1,0 +1,3 @@
+[submodule "cv"]
+	path = cv
+	url = git@ristovic.net:ivan/CV.git
