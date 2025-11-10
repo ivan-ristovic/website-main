@@ -8,5 +8,5 @@ cp ./cv/shared/picture.jpg ./assets/img/prof_pic.jpg
 
 # link bibliography and adapt for jekyll
 cp ./cv/shared/publications.bib ./_bibliography/papers.bib
-sed -i '1s/^/---\n---\n\n/' publications.bib
+sed -i '1s/^/---\n---\n\n/' ./_bibliography/papers.bib
 
