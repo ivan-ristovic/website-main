@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp ./cv/shared/picture.jpg ./assets/img/prof_pic.jpg
