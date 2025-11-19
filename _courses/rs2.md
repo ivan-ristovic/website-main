@@ -8,6 +8,6 @@ github: https://github.com/MatfRS2
 redirect: https://matfrs2.github.io/info/
 github_stars: false
 importance: 1
-category: Bachelor
+category: Masters
 ---
 
