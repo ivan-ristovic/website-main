@@ -49,16 +49,16 @@
   type: time_table
   contents:
     - title: <a href="/projects/cloud">ExtCloud</a>
-      year: 2023 - present
+      year: 2023
       description: Scalable and easy-to-deploy self-hosting cloud service architecture that powers my digital life
     - title: <a href="/projects/dotfiles">dotfiles</a>
-      year: 2021 - present
+      year: 2021
       description: System configuration management automation, with a configuration patching system
     - title: <a href="/projects/linvast">LINVAST</a>
-      year: 2019 - present
+      year: 2019
       description: Language-invariant AST abstraction with tools to create, use and visualize ASTs
     - title: <a href="/projects/the-godfather">the-godfather</a>
-      year: 2018 - present
+      year: 2018
       description: A feature-rich general-purpose Discord bot
     - title: <a href="/projects/maze-pathfinder">maze-pathfinder</a>
       year: 2017
